@@ -1,0 +1,41 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+div>* {
+    margin: auto;
+}
+
+.head-button-case {
+    display: flex;
+    flex-direction: row;
+}
+
+.head-button {
+    width: 100px;
+    font-size: medium;
+    color: whitesmoke;
+    border: none;
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.head-button:hover {
+    cursor: pointer;
+    color: cadetblue;
+    border: 3px solid cadetblue;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+.active-head-button {
+    color: cadetblue;
+    border: 3px solid cadetblue;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
