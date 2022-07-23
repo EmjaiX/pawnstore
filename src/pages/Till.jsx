@@ -7,8 +7,8 @@ function Home() {
     //Return Web Element for display
     return (
     <>
-      <Head page="Transaction"/>
-      <Body title="Transaction"/>
+      <Head page="Till"/>
+      <Body title="Till"/>
     </>
   );
 }

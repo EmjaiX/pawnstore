@@ -1,16 +1,16 @@
 import Head from '../portion/Head';
 import Body from '../portion/Body';
 
-function Home() {
+function LayAway() {
     //Create Variables and hadnle data
 
     //Return Web Element for display
     return (
     <>
-      <Head page="Transaction"/>
-      <Body title="Transaction"/>
+      <Head page="LayAway"/>
+      <Body title="LayAway"/>
     </>
   );
 }
 
-export default Home;
+export default LayAway;

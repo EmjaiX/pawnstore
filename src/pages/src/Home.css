@@ -1,3 +1,15 @@
+:root {
+    --color0: rgb(63, 148, 225);
+    --color1: rgb(135, 0, 194);
+    --color2: rgb(62, 181, 96);
+    --color3: rgb(195, 193, 65);
+    --color4: rgb(32, 108, 169);
+    --color5: rgb(224, 40, 53);
+    --color6: rgb(2, 138, 139);
+    --color7: rgb(204, 126, 0);
+    --color8: rgb(144, 200, 0);
+}
+
 div {
     display: flex;
     flex-direction: column;
@@ -15,9 +27,7 @@ div>* {
 .head-button {
     width: 100px;
     font-size: medium;
-    color: whitesmoke;
     border: none;
-    background-color: cadetblue;
     margin: 5px;
     padding: 10px;
 
@@ -25,16 +35,182 @@ div>* {
 
 .head-button:hover {
     cursor: pointer;
-    color: cadetblue;
-    border: 3px solid cadetblue;
     background-color: whitesmoke;
     margin: 10px;
     padding: 2px;
 }
 
 .active-head-button {
-    color: cadetblue;
-    border: 3px solid cadetblue;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 0 */
+.color0 {
+    color: whitesmoke;
+    background-color: var(--color0);
+}
+
+.color0:hover {
+    color: var(--color0);
+    background-color: whitesmoke;
+}
+
+.active-head-button0 {
+    color: var(--color0);
+    border: 3px solid var(--color0);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 1 */
+.color1 {
+    color: whitesmoke;
+    background-color: var(--color1);
+}
+
+.color1:hover {
+    color: var(--color1);
+    background-color: whitesmoke;
+}
+
+.active-head-button1 {
+    color: var(--color1);
+    border: 3px solid var(--color1);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 2 */
+.color2 {
+    color: whitesmoke;
+    background-color: var(--color2);
+}
+
+.color2:hover {
+    color: var(--color2);
+    background-color: whitesmoke;
+}
+
+.active-head-button2 {
+    color: var(--color2);
+    border: 3px solid var(--color2);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 3 */
+.color3 {
+    color: whitesmoke;
+    background-color: var(--color3);
+}
+
+.color3:hover {
+    color: var(--color3);
+    background-color: whitesmoke;
+}
+
+.active-head-button3 {
+    color: var(--color3);
+    border: 3px solid var(--color3);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 4 */
+.color4 {
+    color: whitesmoke;
+    background-color: var(--color4);
+}
+
+.color4:hover {
+    color: var(--color4);
+    background-color: whitesmoke;
+}
+
+.active-head-button4 {
+    color: var(--color4);
+    border: 3px solid var(--color4);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 5 */
+.color5 {
+    color: whitesmoke;
+    background-color: var(--color5);
+}
+
+.color5:hover {
+    color: var(--color5);
+    background-color: whitesmoke;
+}
+
+.active-head-button5 {
+    color: var(--color5);
+    border: 3px solid var(--color5);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 6 */
+.color6 {
+    color: whitesmoke;
+    background-color: var(--color6);
+}
+
+.color6:hover {
+    color: var(--color6);
+    background-color: whitesmoke;
+}
+
+.active-head-button6 {
+    color: var(--color6);
+    border: 3px solid var(--color6);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 7 */
+.color7 {
+    color: whitesmoke;
+    background-color: var(--color7);
+}
+
+.color7:hover {
+    color: var(--color7);
+    background-color: whitesmoke;
+}
+
+.active-head-button7 {
+    color: var(--color7);
+    border: 3px solid var(--color7);
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* 8 */
+.color0 {
+    color: whitesmoke;
+    background-color: var(--color8);
+}
+
+.color8:hover {
+    color: var(--color8);
+    background-color: whitesmoke;
+}
+
+.active-head-button8 {
+    color: var(--color8);
+    border: 3px solid var(--color8);
     background-color: whitesmoke;
     margin: 10px;
     padding: 2px;

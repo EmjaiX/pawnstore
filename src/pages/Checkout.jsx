@@ -8,7 +8,7 @@ function Home() {
     return (
     <>
       <Head page="Checkout"/>
-      <Body title="Home"/>
+      <Body title="Checkout"/>
     </>
   );
 }
